@@ -88,7 +88,7 @@ fmt.Println(r.Choices[0].Text)
 
 So, the full code will be:
 ```go
-package main 
+package main
 
 
 import (
@@ -97,7 +97,7 @@ import (
 	"log"
 	"os"
 	"testing"
-  "github.com/0x9ef/openai-go"
+  "github.com/kubeshark/openai-go"
 )
 
 func main() {
